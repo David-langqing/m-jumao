@@ -1,0 +1,200 @@
+@charset "UTF-8";
+.loginlogo {
+  width: 1349px;
+  height: 100px;
+  font-size: 12px;
+  background: #ff6800;
+}
+
+.loginlogo .logincontain {
+  width: 1240px;
+  height: 72px;
+  padding: 28px  0 0;
+  margin: 0 auto;
+}
+
+.loginlogo .logincontain .uptitle {
+  width: 67%;
+  height: 48px;
+}
+
+.titlel {
+  width: 233px;
+  height: 48px;
+  float: left;
+}
+
+.titlel img {
+  width: 233px;
+  height: 48px;
+}
+
+.sameline {
+  width: 831px;
+  height: 16px;
+  line-height: 16px;
+  padding-top: 10px;
+}
+
+.sameline span {
+  display: inline-block;
+  font-family: 微软雅黑;
+  font-weight: normal !important;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 1.2px;
+  line-height: 24px;
+  border-left: 1px solid #dddddd;
+  padding: 0 26px;
+  margin: 0 30px;
+}
+
+.loginbox {
+  width: 1920;
+  height: 600px;
+  background: url(../img/Clg0.jpg) no-repeat center center;
+}
+
+.loginbox .login {
+  width: 1240px;
+  height: 509px;
+  padding: 0 15px 110px;
+}
+
+.loginbox .login .loginmodel {
+  width: 345px;
+  height: 360px;
+  padding: 0 15px;
+  margin-top: 130px;
+  background: #fff;
+  float: right;
+}
+
+.loginform {
+  width: 360px;
+  height: 360px;
+  padding-left: 5px;
+}
+
+.loginform .listrow {
+  width: 345px;
+  height: 64px;
+}
+
+.loginname {
+  padding-top: 15px;
+  font-family: 微软雅黑-Bold;
+  font-size: 18px;
+  color: #ff6800;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.listman {
+  width: 375px;
+  height: 40px;
+}
+
+.listman .listmanin {
+  width: 220px;
+  height: 40px;
+  background: #d7e6f7;
+}
+
+.listman .listmanin span {
+  background: url(../img/man-pic.png) no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  border-right: 1px solid #BFBFBF;
+  margin: 10px 10px;
+}
+
+.listman .listmanin .form-control {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 2px !important;
+  width: 280px;
+  height: 40px;
+  padding-left: 50px;
+}
+
+.listman .listmanin .pwd-icon {
+  background: url(../img/lock-pic.png) no-repeat;
+}
+
+.mian {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #6e6e6e;
+  letter-spacing: 0;
+  width: 330px;
+  height: 35px;
+  line-height: 14px;
+}
+
+.mian label {
+  float: left;
+}
+
+.mian label .inp {
+  position: relative;
+  z-index: 1;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: #fff;
+  background-color: initial;
+  float: left;
+  margin: -1px 1px 0 1px;
+}
+
+.mian label span {
+  margin-left: 6px;
+}
+
+.mian div {
+  float: right;
+}
+
+.mian div a {
+  color: #ff6800;
+}
+
+.lodiv {
+  display: block;
+  width: 333px;
+  height: 42px;
+  background: #ff6800;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.lobottom {
+  display: block;
+  width: 333px;
+  text-align: center;
+  line-height: 24px;
+  height: 24px;
+  padding-top: 10px;
+}
+
+.lobottom a {
+  color: #ff6800;
+}
+
+.bottomwrap {
+  height: 95px;
+  background: #fff;
+  line-height: 85px;
+}

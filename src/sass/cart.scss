@@ -1,0 +1,313 @@
+.cartmain{
+    width: 100%;
+    .cartseabox{
+        width: 100%;
+        background:#ff6800;
+    }
+    .cartsea{
+        
+        width: 1190px;
+        margin: 0 auto;
+        height: 100px;   
+    }
+}
+.seatop{
+    margin-top: 28px;
+    width: 50%;
+    float: left;
+    a{
+        overflow: auto;
+        width: 300px;
+        cursor: pointer;
+        img{
+            height: 40px;
+            float: left;
+        }
+    }
+}
+.search{
+    // width: 1%;
+    vertical-align: middle;
+    .inputbtn{
+        float: left;
+        button{
+            display: inline-block;
+            color: #333;
+            background:#fff;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center; 
+            white-space: nowrap;
+            vertical-align: middle;
+            border: 1px solid #ccc;
+            width: 83px;
+            height: 40px;
+        }
+        .sear{
+            background: #ffc62c;
+            border: 1px solid #ffc62c;
+            color: #fff;
+        }
+    }
+    
+    input{
+        display: table-cell;
+        float: left;
+        width: 393px;
+        height: 26px;
+        padding: 6px 12px; 
+        border: 1px solid #ccc;
+        border-left: none;
+        border-right: none;
+        font-size: 14px;
+    }
+}
+.cart{
+    width: 1190px;
+    margin: 20px auto 30px;
+    .row{
+        border: 1px solid #dedede;
+        background: #fffcf4;
+        height: 50px;
+        margin-bottom: 20px;
+        .cart-font{
+            color: #3e3e3e;
+            float: left;
+        }
+        .jm-cart-title-1{
+            margin-left: 125px;
+            margin-top: 15px;
+        }
+        .jm-cart-title-2{
+            margin-left: 334px;
+            margin-top: 15px
+        }
+        .jm-cart-title-3{
+            margin-left: 170px;
+            margin-top: 15px;
+        }
+        .jm-cart-title-4{
+            margin-left: 170px;
+            margin-top: 15px;
+        }
+        .jm-cart-title-5{
+            margin-left: 170px;
+            margin-top: 15px;
+        }
+    }
+}
+.maintit{
+
+}
+.store{
+    position: relative;
+}
+.title{
+    margin-bottom: 10px;
+    width: 100%;
+    
+    .tit1{
+        font-size: 16px;
+        color: #333;
+        float: left;
+        margin-left: 10px;
+    }
+    .tit2{
+        display: inline-block;
+        width: 18px;
+        height: 20px;
+        margin-left: 10px;  
+        cursor: pointer;
+        img{
+            width: 18px;
+            height: 20px;
+        }
+    }
+    .tit3{
+        float: right;
+        line-height: 21px;
+        font-size: 14px;
+        color: #666;
+        height: 22px;
+        background: #e5e5e5;
+        padding: 1px 4px;
+        margin-top: -1px;
+        margin-left: 10px;
+    }
+    .cartdeep{
+        float: right;
+        font-size: 14px;
+        color: #333;
+    }
+}
+.cartdeeper{
+    font-size: 16px;
+    color: #333;
+    float: left;
+}
+.tit .storemain{
+    margin-bottom: 20px;
+    height: 120px;
+    border: 1px solid #dedede;
+    background: #fff;
+    .goods{
+        
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        padding-left: 0;
+        .goodsimg{
+            float: left;
+            display: block;
+            margin-left: 24px;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .goodsinfo{
+            float: left;
+            margin-top: 2px;
+            margin-left: 12px;
+            width: 269px;
+        }
+    }
+}
+.goodsprice{
+    float: left;
+    width: 198px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.goodsnum{
+    width: 161px;
+    height: 34px;
+    float: left;
+    padding-left: 20px;
+    .mnum{
+        display: block;
+        float: left;
+    }
+    .reduce{
+        width: 34px;
+        height: 34px;
+        font-size: 26px;
+        line-height: 30px;
+        background: #f7f7f7;
+        text-align: center;
+        border: none;
+        color: #9e9e9e;
+    }
+    input{
+        width: 72px;
+        height: 32px;
+        font-size: 16px;
+        color: #333;
+        border: 1px solid #dedede;
+        text-align: center;
+        padding: 0;
+    }
+    .add{
+        width: 34px;
+        height: 34px;
+        font-size: 26px;
+        line-height: 30px;
+        background: #f7f7f7;
+        text-align: center;
+        border: none;
+        color: #9e9e9e;
+    }
+}
+.goodstotal{
+    float: left;
+    width: 142px;
+    height: 22px;
+    margin-left: 70px;
+    .goodstot{
+        font-size: 14px;
+        color: #ff4402;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+}
+.goodsremove{
+    float: left;
+    width: 47px;
+    height: 25px;
+    margin-left: 72px;
+    a{
+        font-size: 16px;
+        color: #666;
+    }
+}
+.select{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    background: #fff;
+    margin-right: 10px;
+    border: 1px solid #dedede;
+}
+.stotal{
+    width: 1173px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+    background: #f2f2f2;
+    .toinput{
+        float: left;
+        // color: #ef4545;
+        font-size: 16px;
+        span{
+            float: left;
+        }
+        input{
+            margin-top: 18px;
+            margin-right: 5px; 
+        }
+    }
+    .totalr{
+        float: right;
+    }
+}
+.totalinfo{
+    float: left;
+    text-align: center;
+    .infonum{
+        font-size: 16px;
+        color: #ff4402;
+        margin-right: 2px;
+    }
+    .cartinfo{
+        color: #3e3e3e;
+    }
+}
+.totalpr{
+    float: left;
+    font-size: 20px;
+    color: #ff4402;
+    margin-left: 15px;
+}
+.count{
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    button{
+        width: 120px;
+        height:40px;
+        padding: 6px 12px;
+        border: 1px solid transparent;
+        background: #ef4545;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+    }
+}
